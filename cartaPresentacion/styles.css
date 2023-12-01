@@ -1,0 +1,64 @@
+body {
+   font-family: 'Arial', sans-serif;
+   line-height: 1.6;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color: #000000;
+   color: #fff;
+   text-align: center;
+   padding: 2em 0;
+}
+
+.profile-image {
+   width: 100px; 
+   height: 100px;
+   border-radius: 50%; 
+   position: absolute;
+   top: 13px; 
+   left: 50%; 
+   transform: translateX(-50%); 
+ }
+
+section {
+   max-width: 600px;
+   margin: 30px auto;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+}
+
+h1,
+h2 {
+   color: #333;
+}
+h1 {
+   color: #fff;
+   margin-top: 90px;
+}
+
+p {
+   color: #000000;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+.gracias {
+   color: #fff;
+}
+
+footer {
+   text-align: center;
+   padding: 20px;
+   background-color: #000000;
+   color: #fff;
+   bottom: 0;
+   width: 100%;
+}
